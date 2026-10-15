@@ -26,8 +26,4 @@ describe('Calculator', () => {
   test('pembagian dengan nol menghasilkan error', () => {
     expect(() => calc.divide(10, 0)).toThrow('Cannot divide by zero');
   });
-
-  test('deliberately failing test for CI simulation', () => {
-    expect(2 + 2).toBe(5);
-  });
 });
